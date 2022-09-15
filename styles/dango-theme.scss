@@ -1,0 +1,82 @@
+$theme: (
+  //intent colors
+  'color-primary': $color-kam-5,
+  'color-primary-hover': $color-kam-4,
+  'color-primary-active': $color-kam-3,
+  'color-primary-focus': $color-kam-2,
+  'color-primary-gradient': $color-kam-gradient,
+  'color-primary-outlined-background': $color-kam-1,
+  'color-primary-text': $color-kam-9,
+  'color-primary-box-shadow': $color-kam-3,
+  'color-primary-hover-light': $color-kam-6,
+
+  'color-info': $color-blue-5,
+  'color-info-hover': $color-blue-4,
+  'color-info-active': $color-blue-3,
+  'color-info-focus': $color-blue-2,
+  'color-info-gradient': $color-blue-gradient,
+  'color-info-outlined-background': $color-blue-1,
+  'color-info-text': $color-blue-9,
+  'color-info-box-shadow': $color-blue-3,
+  'color-info-hover-light': $color-blue-6,
+
+  'color-success': $color-green-5,
+  'color-success-hover': $color-green-4,
+  'color-success-active': $color-green-3,
+  'color-success-focus': $color-green-2,
+  'color-success-gradient': $color-green-gradient,
+  'color-success-outlined-background': $color-green-1,
+  'color-success-text': $color-green-9,
+  'color-success-box-shadow': $color-green-3,
+  'color-success-hover-light': $color-green-6,
+
+  'color-danger': $color-red-5,
+  'color-danger-hover': $color-red-4,
+  'color-danger-active': $color-red-3,
+  'color-danger-focus': $color-red-2,
+  'color-danger-gradient': $color-red-gradient,
+  'color-danger-outlined-background': $color-red-1,
+  'color-danger-text': $color-red-9,
+  'color-danger-box-shadow': $color-red-3,
+  'color-danger-hover-light': $color-red-6,
+
+  'color-purple': $color-purple-5,
+  'color-purple-hover': $color-purple-4,
+  'color-purple-active': $color-purple-3,
+  'color-purple-focus': $color-purple-2,
+  'color-purple-gradient': $color-purple-gradient,
+  'color-purple-outlined-background': $color-purple-1,
+  'color-purple-text': $color-purple-9,
+  'color-purple-hover-light': $color-purple-6,
+
+  'color-default': $color-neutral-3,
+  'color-default-hover': $color-neutral-4,
+  'color-default-active': $color-neutral-2,
+  'color-default-outlined-background': $color-neutral-3,
+  'color-default-text': $color-neutral-8,
+  'color-default-box-shadow': $color-black,
+  'color-default-border': $color-neutral-1,
+
+  //app colors
+  'color-box-background': $color-neutral-2,
+  'color-box-hover': $color-neutral-3,
+  'color-box-border': $color-neutral-3,
+  'color-background-dark': $color-black,
+  'color-border-dark': $color-neutral-2,
+  'color-hover-dark': $color-neutral-2,
+
+  'color-text': $color-white,
+  // 'color-background': $color-black,
+  'color-background': $color-neutral-1,
+  'color-disabled': $color-neutral-3,
+  'color-text-disabled': $color-neutral-5,
+  'color-text-dark': $color-neutral-8,
+
+  'color-darkest': $color-black,
+  'color-dark': $color-neutral-7,
+
+  'color-bg-disabled': $color-neutral-4,
+  'color-bg-dialog': $color-neutral-2,
+
+  'font-family': $font-family
+) !default;

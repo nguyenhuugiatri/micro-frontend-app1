@@ -1,8 +1,21 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+import Nav from '../components/Nav';
+import { Button, Switch } from '@axieinfinity/dango';
+import dynamic from 'next/dynamic';
 
-export default function Home() {
+const ErrorHandler = dynamic(
+  () => {
+    //@ts-ignore
+    const page = import('host/ErrorBoundary');
+    return page;
+  },
+  { ssr: false }
+);
+
+export const Home = () => {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -12,6 +25,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <ErrorHandler>Test component from host</ErrorHandler>
+        <Nav />
+        <Button text="Click me">Click me</Button>
+        <Switch />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -65,5 +82,7 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
+
+export default Home;
